@@ -1,3 +1,29 @@
+/* General */
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .navbar{
     background-color: #3978E1 !important;
+    margin-bottom: 10%;
+}
+.titulo{
+    margin-bottom: 10%;
+    text-align: center;
+}
+/* Desktop */
+@media (min-width:900px){
+    .formularioInicio{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        border: 1px black solid;
+        padding: 2% 1% 2% 1%;
+    }
+}
+ /* Mobile */
+@media (max-width:900px){
+    .formularioInicio{
+        border: 1px black solid;
+        padding: 3% 2% 3% 2%;
+    }
 }
