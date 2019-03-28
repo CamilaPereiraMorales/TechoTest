@@ -14,17 +14,14 @@ fetch(url)
            nombreCampamento=data[i][2]
            campamento.push(nombreCampamento)
 
-        
+           campamentoSelect.innerHTML +=`
+           <select class="form-control" id="exampleFormControlSelect1">
+           <option id="campamentoSelect">${regionCampamento[i]} / ${campamento[i]}</option>
+ `
            console.log(regionCampamento[i] , campamento[i]);
        }
        
-      //console.log(nombreCampamento);
-      // console.log(ubicacionCampamento + nombreCampamento);
-      //console.log(campamento);
-      
-      
-       
-      
+     
        
    
        
