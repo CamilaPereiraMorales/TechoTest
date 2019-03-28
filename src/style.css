@@ -1,18 +1,18 @@
 /* General */
-body{
-    font-family: 'Roboto', sans-serif;
-}
+
 .navbar{
     background-color: #3978E1 !important;
     margin-bottom: 10%;
 }
 .titulo{
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 10%;
     text-align: center;
 }
 /* Desktop */
 @media (min-width:900px){
     .formularioInicio{
+        font-family: 'Roboto', sans-serif;
         width: 50%;
         margin-left: 25%;
         margin-right: 25%;
@@ -23,6 +23,7 @@ body{
  /* Mobile */
 @media (max-width:900px){
     .formularioInicio{
+        font-family: 'Roboto', sans-serif;
         border: 1px black solid;
         padding: 3% 2% 3% 2%;
     }
