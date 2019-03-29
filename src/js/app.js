@@ -12,3 +12,4 @@
      function gracias(){
          location="./gracias.html"
      }
+     

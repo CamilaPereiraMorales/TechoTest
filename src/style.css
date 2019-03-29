@@ -28,6 +28,8 @@
     }
     .prevNextBtn{
         background-color: #3978E1 !important;
+        margin-top: 10%;
+        margin-bottom: 1%;
     }
     .form-check{
         margin-bottom: 5%;

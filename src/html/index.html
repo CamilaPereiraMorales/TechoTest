@@ -30,19 +30,19 @@
             <form class="formularioInicio auto">
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Nombre</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                        <input required minLength="3" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Apellido</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+                        <input required minLength="4" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <input required type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Teléfono</label>
-                        <input type="" class="form-control" id="exampleFormControlInput1" placeholder="569 7667 9597">
+                        <input required minLength="10" pattern="^\+569[0-9]{8}$" type="" class="form-control" id="exampleFormControlInput1" placeholder="569 7667 9597">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlSelect1">
