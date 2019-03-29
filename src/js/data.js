@@ -18,14 +18,9 @@ fetch(url)
 
            select1.innerHTML +=`
            <select class="form-control" id="exampleFormControlSelect1">
-           <option id="campamentoSelect">${regionCampamento[i]} / ${campamento[i]}</option>
+           <option id="campamentoSelect">${regionCampamento[i]} / ${campamento[i]}</option>`
            
- `
-           console.log(regionCampamento[i] , campamento[i]);
+           //console.log(regionCampamento[i] , campamento[i]);
        }
        
     })
-
-    function next() {
-        location="";
-     }
