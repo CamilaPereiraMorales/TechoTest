@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "Techo",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
