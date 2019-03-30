@@ -2,7 +2,7 @@
 
 .navbar{
     background-color: #3978E1 !important;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 .titulo{
     font-family: 'Roboto', sans-serif;
@@ -18,6 +18,7 @@
         width: 50%;
         margin-left: 25%;
         margin-right: 25%;
+        margin-bottom: 5%;
         border: 3px #3978E1 solid;
         box-shadow: #3978E1;
         text-shadow: #3978E1;
@@ -45,6 +46,7 @@
         border: 3px#3978E1 solid;
         box-shadow: #3978E1;
         padding: 3% 2% 3% 2%;
+        margin-bottom: 5%;
     }
     .prevNextBtn:hover{
         background-color: #231736 !important;

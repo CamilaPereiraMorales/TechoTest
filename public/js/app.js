@@ -1,15 +1,15 @@
     function tipoProyecto() {
-        location="/src/html/tipoProyecto.html";
+        location="/tipoProyecto.html";
      }
 
      function escogerCampamento(){
-         location="./index.html";
+         location="/index.html";
      }
 
      function acercaProyecto() {
-         location="./acercaProyecto.html"
+         location="/acercaProyecto.html"
      }
      function gracias(){
-         location="./gracias.html"
+         location="/gracias.html"
      }
     
